@@ -1,0 +1,178 @@
+allow-lan: true
+bind-address: '*'
+dns:
+    default-nameserver:
+        - 8.8.8.8
+        - 1.1.1.1
+    enable: true
+    enhanced-mode: redir-host
+    fallback:
+        - https://1.1.1.1/dns-query
+        - 8.8.8.8
+        - 1.1.1.1
+    ipv6: false
+    listen: 0.0.0.0:7874
+    nameserver:
+        - https://8.8.8.8/dns-query
+        - https://8.8.4.4/dns-query
+external-controller: 0.0.0.0:9090
+ipv6: false
+log-level: silent
+mixed-port: 7893
+mode: rule
+port: 7890
+profile:
+    store-selected: true
+proxies:
+    - client-fingerprint: chrome
+      name: SG - Oracle Cloud [ TROJAN - TLS ]
+      network: ws
+      password: 9051f5ee-8aef-40ea-89d8-9784e0f42207
+      port: "443"
+      server: img.email1.vidio.com
+      skip-cert-verify: false
+      sni: frelance.biz.id
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+        path: /Aryyathy-Mode/146.235.18.248-45137
+    - client-fingerprint: chrome
+      name: SG - Oracle Cloud [ TROJAN - TLS ]-01
+      network: ws
+      password: 9051f5ee-8aef-40ea-89d8-9784e0f42207
+      port: "443"
+      server: img.email1.vidio.com
+      skip-cert-verify: false
+      sni: frelance.biz.id
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /Aryyathy-Mode/213.35.108.135-12596
+    - client-fingerprint: chrome
+      name: SG - Oracle Cloud [ TROJAN - TLS ]-02
+      network: ws
+      password: 9051f5ee-8aef-40ea-89d8-9784e0f42207
+      port: "443"
+      server: img.email1.vidio.com
+      skip-cert-verify: false
+      sni: frelance.biz.id
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /Aryyathy-Mode/129.150.58.86-57621
+    - client-fingerprint: chrome
+      name: SG - Oracle Cloud [ TROJAN - TLS ]-03
+      network: ws
+      password: 9051f5ee-8aef-40ea-89d8-9784e0f42207
+      port: "443"
+      server: img.email1.vidio.com
+      skip-cert-verify: false
+      sni: frelance.biz.id
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
+        path: /Aryyathy-Mode/138.2.89.238-43254
+    - client-fingerprint: chrome
+      name: SG - Alibaba [ TROJAN - TLS ]
+      network: ws
+      password: 9051f5ee-8aef-40ea-89d8-9784e0f42207
+      port: "443"
+      server: img.email1.vidio.com
+      skip-cert-verify: false
+      sni: frelance.biz.id
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+        path: /Aryyathy-Mode/47.245.95.160-1443
+    - client-fingerprint: chrome
+      name: SG - Akamai Connected Cloud [ TROJAN - TLS ]
+      network: ws
+      password: 9051f5ee-8aef-40ea-89d8-9784e0f42207
+      port: "443"
+      server: img.email1.vidio.com
+      skip-cert-verify: false
+      sni: frelance.biz.id
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+        path: /Aryyathy-Mode/139.162.33.248-587
+    - client-fingerprint: chrome
+      name: SG - Oracle Cloud [ TROJAN - TLS ]-04
+      network: ws
+      password: 9051f5ee-8aef-40ea-89d8-9784e0f42207
+      port: "443"
+      server: img.email1.vidio.com
+      skip-cert-verify: false
+      sni: frelance.biz.id
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /Aryyathy-Mode/168.138.166.213-10500
+    - client-fingerprint: chrome
+      name: SG - Alibaba [ TROJAN - TLS ]-01
+      network: ws
+      password: 9051f5ee-8aef-40ea-89d8-9784e0f42207
+      port: "443"
+      server: img.email1.vidio.com
+      skip-cert-verify: false
+      sni: frelance.biz.id
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /Aryyathy-Mode/47.74.254.191-8900
+proxy-groups:
+    - name: Tunnel
+      proxies:
+        - Url Test
+        - Selector
+      type: select
+    - interval: 300
+      name: Url Test
+      proxies:
+        - SG - Oracle Cloud [ TROJAN - TLS ]
+        - SG - Oracle Cloud [ TROJAN - TLS ]-01
+        - SG - Oracle Cloud [ TROJAN - TLS ]-02
+        - SG - Oracle Cloud [ TROJAN - TLS ]-03
+        - SG - Alibaba [ TROJAN - TLS ]
+        - SG - Akamai Connected Cloud [ TROJAN - TLS ]
+        - SG - Oracle Cloud [ TROJAN - TLS ]-04
+        - SG - Alibaba [ TROJAN - TLS ]-01
+      type: url-test
+    - interval: 300
+      name: Selector
+      proxies:
+        - SG - Oracle Cloud [ TROJAN - TLS ]
+        - SG - Oracle Cloud [ TROJAN - TLS ]-01
+        - SG - Oracle Cloud [ TROJAN - TLS ]-02
+        - SG - Oracle Cloud [ TROJAN - TLS ]-03
+        - SG - Alibaba [ TROJAN - TLS ]
+        - SG - Akamai Connected Cloud [ TROJAN - TLS ]
+        - SG - Oracle Cloud [ TROJAN - TLS ]-04
+        - SG - Alibaba [ TROJAN - TLS ]-01
+      type: select
+redir-port: 7892
+rules:
+    - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
+    - AND,((NETWORK,UDP),(OR,((DST-PORT,443),(GEOSITE,youtube)))),REJECT
+    - GEOIP,PRIVATE,DIRECT,no-resolve
+    - MATCH,Tunnel
+secret: ""
+socks-port: 7891
+tproxy-port: 7895
+unified-delay: true
