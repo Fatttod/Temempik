@@ -14,7 +14,7 @@
     "servers": [
       {
         "tag": "Internet-dns",
-        "address": "tls://8.8.8.8",
+        "address": "https://8.8.8.8/dns-query",
         "strategy": "ipv4_only",
         "detour": "Internet"
       },
@@ -259,7 +259,7 @@
       //wc
      {
       "password": "28360b73-ec68-4f20-9366-a0fcd1ff2d2b",
-      "server": "img.email1.vidio.com",
+      "server": "quiz.int.vidio.com",
       "server_port": 443,
       "tag": "🇮🇩 - Rumahweb [ TROJAN - TLS ]",
       "tls": {
