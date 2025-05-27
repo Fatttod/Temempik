@@ -2,7 +2,8 @@
 
 {
   "log": {
-    "level": "warn"
+    "level": "warn",
+    "timestamp": true
   },
   "dns": {
     "servers": [
@@ -1783,11 +1784,12 @@
   },
   "experimental": {
     "cache_file": {
-      "enabled": false
+      "enabled": true
     },
     "clash_api": {
       "external_controller": "127.0.0.1:9090",
-      "external_ui": "yacd"
+      "external_ui": "yacd",
+      "cache_file": "clash.db"
     }
   }
 }
