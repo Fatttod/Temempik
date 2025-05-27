@@ -284,7 +284,7 @@
         ##SG
         "direct"
       ],
-      "url": "https://ping.wildcrd.us.kg",
+      "url": "https://cp.cloudflare.com/generate_204","https://www.gstatic.com/generate_204",
       "interval": "30s"
     },
     {
