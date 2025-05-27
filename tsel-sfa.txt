@@ -1034,7 +1034,7 @@
       "type": "trojan",
       "tag": "🇸🇬 (SG) Amazon.com 21",
       "domain_strategy": "ipv4_only",
-      "server": "104.26.7.171",
+      "server": "bakrie.ac.id",
       "server_port": 443,
       "password": "c1e1b145-1bad-4c43-939f-8ab47cb73744",
       "tls": {
@@ -1059,7 +1059,7 @@
       "type": "trojan",
       "tag": "🇸🇬 (SG) Kaopu Cloud HK 22",
       "domain_strategy": "ipv4_only",
-      "server": "104.26.7.171",
+      "server": "bakrie.ac.id",
       "server_port": 443,
       "password": "48111a46-19a5-4d60-91a9-39e512f7fd07",
       "tls": {
@@ -1084,7 +1084,7 @@
       "type": "trojan",
       "tag": "🇸🇬 (SG) Oracle Cloud 23",
       "domain_strategy": "ipv4_only",
-      "server": "104.26.7.171",
+      "server": "bakrie.ac.id",
       "server_port": 443,
       "password": "323cc172-fd46-4f49-9134-ed6ec2cf9bad",
       "tls": {
@@ -1109,7 +1109,7 @@
       "type": "trojan",
       "tag": "🇸🇬 (SG) GoDaddy.com 24",
       "domain_strategy": "ipv4_only",
-      "server": "104.26.7.171",
+      "server": "bakrie.ac.id",
       "server_port": 443,
       "password": "60f58fbc-bebf-45c8-93bd-3ae947a0acfc",
       "tls": {
@@ -1134,7 +1134,7 @@
       "type": "trojan",
       "tag": "🇸🇬 (SG) Vultr 25",
       "domain_strategy": "ipv4_only",
-      "server": "104.26.7.171",
+      "server": "bakrie.ac.id",
       "server_port": 443,
       "password": "b148f23f-ae32-4202-9e92-3cde61793499",
       "tls": {
@@ -1159,7 +1159,7 @@
       "type": "trojan",
       "tag": "🇸🇬 (SG) Oracle Cloud 26",
       "domain_strategy": "ipv4_only",
-      "server": "104.26.7.171",
+      "server": "bakrie.ac.id",
       "server_port": 443,
       "password": "97fcf135-96f4-403d-b7ae-e0ed5c6d74f4",
       "tls": {
@@ -1184,7 +1184,7 @@
       "type": "trojan",
       "tag": "🇸🇬 (SG) Digital Ocean 27",
       "domain_strategy": "ipv4_only",
-      "server": "104.26.7.171",
+      "server": "bakrie.ac.id",
       "server_port": 443,
       "password": "d20af6bd-735a-4922-b307-b59a8763e2d7",
       "tls": {
@@ -1209,7 +1209,7 @@
       "type": "trojan",
       "tag": "🇸🇬 (SG) Regxa Cloud 28",
       "domain_strategy": "ipv4_only",
-      "server": "104.26.7.171",
+      "server": "bakrie.ac.id",
       "server_port": 443,
       "password": "b12a7532-20c1-4806-8d81-6093ba023f21",
       "tls": {
@@ -1234,7 +1234,7 @@
       "type": "trojan",
       "tag": "🇸🇬 (SG) Oracle Cloud 29",
       "domain_strategy": "ipv4_only",
-      "server": "104.26.7.171",
+      "server": "bakrie.ac.id",
       "server_port": 443,
       "password": "bb7608b9-24e6-4273-8424-698b5b070b87",
       "tls": {
@@ -1259,7 +1259,7 @@
       "type": "trojan",
       "tag": "🇸🇬 (SG) Leaseweb Asia 30",
       "domain_strategy": "ipv4_only",
-      "server": "104.26.7.171",
+      "server": "bakrie.ac.id",
       "server_port": 443,
       "password": "41b6dd43-e4b8-4b10-9926-64f40de48c8a",
       "tls": {
