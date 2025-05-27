@@ -3,7 +3,8 @@
 		"level": "info"
 	},
 	"dns": {
-		"servers": [{
+		"servers": [
+      {
 				"tag": "remote-dns",
 				"address": "https://family.cloudflare-dns.com/dns-query",
 				"address_resolver": "direct-dns",
