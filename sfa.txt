@@ -284,7 +284,8 @@
         ##SG
         "direct"
       ],
-      
+      "url": "https://ping.wildcrd.us.kg",
+      "interval": "30s"
     },
     {
       "type": "selector",
