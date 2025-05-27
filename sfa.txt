@@ -1783,9 +1783,7 @@
     "auto_detect_interface": true
   },
   "experimental": {
-    "cache_file": {
-      "enabled": true
-    },
+    "cache_file": "clash.db",
     "clash_api": {
       "external_controller": "127.0.0.1:9090",
       "external_ui": "yacd"
