@@ -2,7 +2,7 @@
 
 {
   "log": {
-    "level": "info"
+    "level": "warn"
   },
   "dns": {
     "servers": [
@@ -33,7 +33,7 @@
       },
       {
         "tag": "Internet-dns",
-        "address": "1.1.1.1",
+        "address": "https://8.8.8.8/dns-query#ecs=223.5.5.0/24&ecs-override=true",
         "strategy": "ipv4_only",
         "detour": "Internet"
       },
