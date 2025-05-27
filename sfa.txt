@@ -165,6 +165,7 @@
       "type": "selector",
       "outbounds": [
         "Best Latency",
+        ##WC
         ##ID
         "🇮🇩 (ID) PT Telkom Indonesia 1",
         "🇮🇩 (ID) Amazon.com 2",
@@ -174,6 +175,19 @@
         "🇮🇩 (ID) PT Pusat Media Indonesia 6",
         "🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7",
         ##ID
+        ##SG
+        "🇸🇬 (SG) Akile 1.0",
+        "🇸🇬 (SG) Regxa Cloud 2.0",
+        "🇸🇬 (SG) Melbikomas UAB 3.0",
+        "🇸🇬 (SG) Tencent cloud computing 4.0",
+        "🇸🇬 (SG) Alibaba 5.0",
+        "🇸🇬 (SG) Oracle Cloud 6.0",
+        "🇸🇬 (SG) Alibaba 7.0",
+        "🇸🇬 (SG) Digital Ocean 8.0",
+        "🇸🇬 (SG) Oracle Cloud 9.0",
+        "🇸🇬 (SG) Melbikomas UAB 10.0",
+        ##SG
+        ##WC
         ##SG
         "🇸🇬 (SG) Akile 1",
         "🇸🇬 (SG) Regxa Cloud 2",
@@ -213,6 +227,7 @@
       "type": "urltest",
       "tag": "Best Latency",
       "outbounds": [
+        ##WC
         ##ID
         "🇮🇩 (ID) PT Telkom Indonesia 1",
         "🇮🇩 (ID) Amazon.com 2",
@@ -222,6 +237,19 @@
         "🇮🇩 (ID) PT Pusat Media Indonesia 6",
         "🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7",
         ##ID
+        ##SG
+        "🇸🇬 (SG) Akile 1.0",
+        "🇸🇬 (SG) Regxa Cloud 2.0",
+        "🇸🇬 (SG) Melbikomas UAB 3.0",
+        "🇸🇬 (SG) Tencent cloud computing 4.0",
+        "🇸🇬 (SG) Alibaba 5.0",
+        "🇸🇬 (SG) Oracle Cloud 6.0",
+        "🇸🇬 (SG) Alibaba 7.0",
+        "🇸🇬 (SG) Digital Ocean 8.0",
+        "🇸🇬 (SG) Oracle Cloud 9.0",
+        "🇸🇬 (SG) Melbikomas UAB 10.0",
+        ##SG
+        ##WC
         ##SG
         "🇸🇬 (SG) Akile 1",
         "🇸🇬 (SG) Regxa Cloud 2",
@@ -263,6 +291,7 @@
       "type": "selector",
       "tag": "Lock Region ID",
       "outbounds": [ 
+        ##WC
         ##ID
         "🇮🇩 (ID) PT Telkom Indonesia 1",
         "🇮🇩 (ID) Amazon.com 2",
@@ -272,6 +301,19 @@
         "🇮🇩 (ID) PT Pusat Media Indonesia 6",
         "🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7",
         ##ID
+        ##SG
+        "🇸🇬 (SG) Akile 1.0",
+        "🇸🇬 (SG) Regxa Cloud 2.0",
+        "🇸🇬 (SG) Melbikomas UAB 3.0",
+        "🇸🇬 (SG) Tencent cloud computing 4.0",
+        "🇸🇬 (SG) Alibaba 5.0",
+        "🇸🇬 (SG) Oracle Cloud 6.0",
+        "🇸🇬 (SG) Alibaba 7.0",
+        "🇸🇬 (SG) Digital Ocean 8.0",
+        "🇸🇬 (SG) Oracle Cloud 9.0",
+        "🇸🇬 (SG) Melbikomas UAB 10.0",
+        ##SG
+        ##WC
         ##SG
         "🇸🇬 (SG) Akile 1",
         "🇸🇬 (SG) Regxa Cloud 2",
@@ -522,6 +564,256 @@
       "transport": {
         "type": "ws",
         "path": "/203.194.112.119-2053",
+        "headers": {
+          "Host": "quiz.int.vidio.com.admin.ari-andika2.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 (SG) Akile 1.0",
+      "domain_strategy": "ipv4_only",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "069e1ffc-00bf-46c7-95e5-be4f61364598",
+      "tls": {
+        "enabled": true,
+        "server_name": "quiz.int.vidio.com.admin.ari-andika2.site",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/185.81.28.95-30503",
+        "headers": {
+          "Host": "quiz.int.vidio.com.admin.ari-andika2.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 (SG) Regxa Cloud 2.0",
+      "domain_strategy": "ipv4_only",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "635ffa82-c913-4e52-8b5d-3f91778fd4d4",
+      "tls": {
+        "enabled": true,
+        "server_name": "quiz.int.vidio.com.admin.ari-andika2.site",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/206.206.76.208-8443",
+        "headers": {
+          "Host": "quiz.int.vidio.com.admin.ari-andika2.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 (SG) Melbikomas UAB 3.0",
+      "domain_strategy": "ipv4_only",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "cf83db0c-c6e8-40b1-af53-a90731f4a09f",
+      "tls": {
+        "enabled": true,
+        "server_name": "quiz.int.vidio.com.admin.ari-andika2.site",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/91.192.81.154-2053",
+        "headers": {
+          "Host": "quiz.int.vidio.com.admin.ari-andika2.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 (SG) Tencent cloud computing 4.0",
+      "domain_strategy": "ipv4_only",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "12dbc503-b6db-4ff2-9956-995cdb83cb4f",
+      "tls": {
+        "enabled": true,
+        "server_name": "quiz.int.vidio.com.admin.ari-andika2.site",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/150.109.94.144-8900",
+        "headers": {
+          "Host": "quiz.int.vidio.com.admin.ari-andika2.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 (SG) Alibaba 5.0",
+      "domain_strategy": "ipv4_only",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "7c06edf6-b1c6-4a6b-98ca-fb537d102698",
+      "tls": {
+        "enabled": true,
+        "server_name": "quiz.int.vidio.com.admin.ari-andika2.site",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/47.236.119.190-51342",
+        "headers": {
+          "Host": "quiz.int.vidio.com.admin.ari-andika2.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 (SG) Oracle Cloud 6.0",
+      "domain_strategy": "ipv4_only",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "5dae0a4c-7287-4d5d-8784-874d27b12fda",
+      "tls": {
+        "enabled": true,
+        "server_name": "quiz.int.vidio.com.admin.ari-andika2.site",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/138.2.101.213-15204",
+        "headers": {
+          "Host": "quiz.int.vidio.com.admin.ari-andika2.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 (SG) Alibaba 7.0",
+      "domain_strategy": "ipv4_only",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "5e902959-925a-4714-9059-933335d6a415",
+      "tls": {
+        "enabled": true,
+        "server_name": "quiz.int.vidio.com.admin.ari-andika2.site",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/47.236.181.185-8443",
+        "headers": {
+          "Host": "quiz.int.vidio.com.admin.ari-andika2.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 (SG) Digital Ocean 8.0",
+      "domain_strategy": "ipv4_only",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "14606095-0f91-45b6-8389-0a77fd9b3dfb",
+      "tls": {
+        "enabled": true,
+        "server_name": "quiz.int.vidio.com.admin.ari-andika2.site",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/104.248.145.216-443",
+        "headers": {
+          "Host": "quiz.int.vidio.com.admin.ari-andika2.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 (SG) Oracle Cloud 9.0",
+      "domain_strategy": "ipv4_only",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "598a5a38-cf1a-4bcc-8ba4-2b2902283f12",
+      "tls": {
+        "enabled": true,
+        "server_name": "quiz.int.vidio.com.admin.ari-andika2.site",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/129.150.41.174-16462",
+        "headers": {
+          "Host": "quiz.int.vidio.com.admin.ari-andika2.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 (SG) Melbikomas UAB 10.0",
+      "domain_strategy": "ipv4_only",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "abd6eddf-5f32-4f0a-9af6-a4dca0890aca",
+      "tls": {
+        "enabled": true,
+        "server_name": "quiz.int.vidio.com.admin.ari-andika2.site",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/91.192.81.154-8443",
         "headers": {
           "Host": "quiz.int.vidio.com.admin.ari-andika2.site"
         },
