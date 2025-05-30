@@ -165,7 +165,7 @@
       "tag": "Internet",
       "type": "selector",
       "outbounds": [
-        "Best Latency"
+        "Best Latency",
 
         "direct"
       ]
