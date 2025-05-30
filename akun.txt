@@ -1,0 +1,113 @@
+{
+      "tag": "Internet",
+      "type": "selector",
+      "outbounds": [
+        "Best Latency",
+        "🇸🇬 (SG) Akile 1"
+        "direct"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "Best Latency",
+      "outbounds": [
+        "🇸🇬 (SG) Akile 1"
+        "direct"
+      ],
+      "url": "https://ping.wildcrd.us.kg",
+      "interval": "30s"
+    },
+    {
+      "type": "selector",
+      "tag": "Lock Region ID",
+      "outbounds": [ 
+        "🇸🇬 (SG) Akile 1"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "WhatsApp",
+      "outbounds": [
+        "direct",
+        "Internet",
+        "Best Latency",
+        "Lock Region ID"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "GAMESMAX(ML/FF/AOV)",
+      "outbounds": [
+        "direct",
+        "Internet",
+        "Best Latency",
+        "Lock Region ID"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "Route Port Game",
+      "outbounds": [
+        "direct",
+        "Internet",
+        "Best Latency",
+        "Lock Region ID"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "Option ADs",
+      "outbounds": [
+        "block",
+        "Internet"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "Option P0rn",
+      "outbounds": [
+        "block",
+        "Internet"
+      ]
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 (SG) Akile 1",
+      "domain_strategy": "ipv4_only",
+      "server": "quiz.int.vidio.com",
+      "server_port": 443,
+      "password": "b14dcad4-a624-4253-bdf9-53234c71d8bf",
+      "tls": {
+        "enabled": true,
+        "server_name": "quiz.int.vidio.com.admin.ari-andika2.site",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/185.81.28.95-30503",
+        "headers": {
+          "Host": "quiz.int.vidio.com.admin.ari-andika2.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "direct",
+      "tag": "bypass"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
